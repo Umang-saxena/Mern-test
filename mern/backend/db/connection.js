@@ -1,6 +1,6 @@
 import { MongoClient, ServerApiVersion } from "mongodb";
 
-const URI = "mongodb://mongodb-mern:27017";
+const URI = "mongodb://mern mern-mongo-1:27017";
 const client = new MongoClient(URI, {
   serverApi: {
     version: ServerApiVersion.v1,
